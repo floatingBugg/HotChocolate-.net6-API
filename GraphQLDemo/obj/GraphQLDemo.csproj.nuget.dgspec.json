@@ -1,27 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GraphQLDemo\\GraphQLDemo\\GraphQLDemo.csproj": {}
+    "D:\\HotChocolate-.net6-API\\GraphQLDemo\\GraphQLDemo.csproj": {}
   },
   "projects": {
-    "D:\\GraphQLDemo\\GraphQLDemo\\GraphQLDemo.csproj": {
+    "D:\\HotChocolate-.net6-API\\GraphQLDemo\\GraphQLDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GraphQLDemo\\GraphQLDemo\\GraphQLDemo.csproj",
+        "projectUniqueName": "D:\\HotChocolate-.net6-API\\GraphQLDemo\\GraphQLDemo.csproj",
         "projectName": "GraphQLDemo",
-        "projectPath": "D:\\GraphQLDemo\\GraphQLDemo\\GraphQLDemo.csproj",
+        "projectPath": "D:\\HotChocolate-.net6-API\\GraphQLDemo\\GraphQLDemo.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\GraphQLDemo\\GraphQLDemo\\obj\\",
+        "outputPath": "D:\\HotChocolate-.net6-API\\GraphQLDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net6.0": {
@@ -33,7 +41,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -89,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }
